@@ -19,6 +19,8 @@ public partial class MainWindow : Window
         ["weather rain"] = "Splish splash, here comes the rain!",
         ["weather clear"] = "Bye-bye rain! Clear skies!",
         ["weather thunder"] = "Boom! A big storm is coming!",
+        ["gamemode survival @s"] = "Survival mode! Be brave and stay safe!",
+        ["gamemode creative @s"] = "Creative mode! Build anything you want!",
     };
 
     private MinecraftBridge? _bridge;
@@ -84,7 +86,7 @@ public partial class MainWindow : Window
 
     private void SetButtonsEnabled(bool enabled)
     {
-        foreach (var button in new[] { DayButton, NightButton, RainButton, ClearButton, StormButton })
+        foreach (var button in new[] { DayButton, NightButton, RainButton, ClearButton, StormButton, SurvivalButton, CreativeButton })
             button.IsEnabled = enabled;
     }
 
