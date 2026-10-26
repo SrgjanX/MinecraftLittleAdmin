@@ -1,14 +1,20 @@
-# Minecraft Little Admin
+<p align="center">
+  <img src="docs/logo.png" alt="Minecraft Little Admin logo" width="160" />
+</p>
+
+<h1 align="center">Minecraft Little Admin</h1>
 
 A small, kid-friendly control panel for Minecraft LAN games. Instead of typing commands, players tap big colorful buttons and the app sends the matching command to Minecraft:
 
-| Button  | Command            |
-|---------|--------------------|
-| Day     | `time set day`     |
-| Night   | `time set night`   |
-| Rain    | `weather rain`     |
-| No Rain | `weather clear`    |
-| Storm   | `weather thunder`  |
+| Button   | Command                  |
+|----------|--------------------------|
+| Day      | `time set day`           |
+| Night    | `time set night`         |
+| Rain     | `weather rain`           |
+| No Rain  | `weather clear`          |
+| Storm    | `weather thunder`        |
+| Survival | `gamemode survival @s`   |
+| Creative | `gamemode creative @s`   |
 
 Built for parents and kids who play together, so the youngest player can control the world too.
 
@@ -34,7 +40,7 @@ The app runs on the same PC as the host's Minecraft and only accepts connections
 
 Minecraft doesn't remember `/connect`, so it's needed each time a world is opened. The button does the typing for you. You can still type the command yourself (it's shown in the app).
 
-Only the host does this. The weather and time change for everyone in the LAN game.
+Only the host does this. The weather and time change for everyone in the LAN game, but Survival and Creative only switch the host player's game mode.
 
 ### If it doesn't connect
 
