@@ -1,7 +1,7 @@
 ﻿<Window x:Class="MinecraftLittleAdmin.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Minecraft Little Admin"
+        Title="Minecraft Little Admin" Icon="AppIcon.ico"
         Width="880" Height="760" MinWidth="640" MinHeight="640"
         WindowStartupLocation="CenterScreen"
         Loaded="Window_Loaded" Closing="Window_Closing">
